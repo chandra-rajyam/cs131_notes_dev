@@ -407,11 +407,11 @@ larger size relative to those farther in the background prior to
 insertion.\
 
 ![image]({{ site.baseurl }}/assets/images/image_scale.png)\
-->*(image taken from CS131 Lecture 17)*
+<div align="center">*(image taken from CS131 Lecture 17)*</div>
 
 ![image]({{ site.baseurl }}/assets/images/depth_probing1.png) ![image]({{ site.baseurl }}/assets/images/depth_probing3.png)\
-->*(image taken from screenshots at
-http://grail.cs.washington.edu/projects/shadow/)*<-
+<div align="center">*(image taken from screenshots at
+http://grail.cs.washington.edu/projects/shadow/)*</div>
 
 Intrinsic Assumptions
 ---------------------
@@ -702,7 +702,7 @@ distance from the camera since there is no scale factor as illustrated
 below.
 
 ![image]({{ site.baseurl }}/assets/images/Orthogonal_Perspective.JPG)\
-->*(Image taken from CS131 Lecture 17 slides)*<-
+<div align="center">*(Image taken from CS131 Lecture 17 slides)*</div>
 
 Scaled Orthographic Projection
 ------------------------------
@@ -751,7 +751,7 @@ Zooming into an area will enlarge corresponding objects, but it will
 narrow the field of view as illustrated in the graphic below.
 
 ![image]({{ site.baseurl }}/assets/images/Field_of_Zoom.JPG)\
-->*(Image taken from CS131 Lecture 17 slides)*<-
+<div align="center">*(Image taken from CS131 Lecture 17 slides)*</div>
 
 References
 ==========
