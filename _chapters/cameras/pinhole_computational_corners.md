@@ -366,7 +366,7 @@ $$\begin{aligned}
         y\\
         1
     \end{bmatrix} 
-    \hspace*{8mm}
+    \hspace{8mm}
     (x, y, z) 
     \rightarrow
     \begin{bmatrix} 
@@ -390,7 +390,7 @@ $$\begin{aligned}
     \end{bmatrix}  
     \rightarrow 
     (\dfrac{x}{w}, \dfrac{y}{w})
-    \hspace*{8mm}
+    \hspace{8mm}
     \begin{bmatrix} 
         x\\
         y\\
