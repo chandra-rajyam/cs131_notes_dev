@@ -346,11 +346,14 @@ would make our downstream analysis easier.
 
 Homogeneous Coordinates
 -----------------------
-
-![image]({{ site.baseurl }}/assets/images/Pinhole camera_real world 2.JPG)
-
-*(Image taken from CS131 Lecture 17 slides)* 3D projection of point $P$
-into $P'$.
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/Pinhole camera_real world 2.JPG" width="600" height="270" class=center>
+    <br>
+    <i>
+        (Image taken from CS131 Lecture 17 slides)
+    </i>
+    3D projection of point $P$ into $P'$.
+</p>
 
 Recalling from a previous lecture, we were able to get around this
 problem by using the **homogeneous coordinate** system. For a 2D point
