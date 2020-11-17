@@ -407,11 +407,11 @@ larger size relative to those farther in the background prior to
 insertion.\
 
 ![image]({{ site.baseurl }}/assets/images/image_scale.png)\
-*(image taken from CS131 Lecture 17)*
+->*(image taken from CS131 Lecture 17)*
 
 ![image]({{ site.baseurl }}/assets/images/depth_probing1.png) ![image]({{ site.baseurl }}/assets/images/depth_probing3.png)\
-*(image taken from screenshots at
-http://grail.cs.washington.edu/projects/shadow/)*
+->*(image taken from screenshots at
+http://grail.cs.washington.edu/projects/shadow/)*<-
 
 Intrinsic Assumptions
 ---------------------
@@ -452,25 +452,19 @@ P' &= K \begin{bmatrix} I & 0 \end{bmatrix} P\end{aligned}$$
 
 There are
 three main assumptions we make about $M$:
-
 -   Note that $f$ is equal in both dimensions, making the assumption
     that it is a unit aspect ratio.
-
 -   The optical center is assumed to be at $(0,0)$
-
 -   Assume there is no skew
 
 
 These assumptions work in an ideal world. In order to apply the
 projection matrix to real world images, we need to relax these
 assumptions. Specifically, we can:
-
 -   Say the optical center is at $(u_0, v_0)$
-
 -   Assume rectangular pixels instead of square pixels. This means
     adjusting the focal length to be different in each dimension, we
     will refer to this as $\alpha$ and $\beta$.
-
 -   Allow for some skew, we will call this $s$.
 
 ### Removing the Optical Center Assumption
@@ -517,7 +511,9 @@ K = \begin{bmatrix}
 \alpha & 0 & u_0 \\
 0 & \beta & v_0 \\
 0 & 0 & 1 
-\end{bmatrix}\end{aligned}$$ this results in a projection transformation
+\end{bmatrix}\end{aligned}$$ 
+
+This results in a projection transformation
 of
 
 $$\begin{aligned}
@@ -549,7 +545,9 @@ K = \begin{bmatrix}
 \alpha & s & u_0 \\
 0 & \beta & v_0 \\
 0 & 0 & 1 
-\end{bmatrix}\end{aligned}$$ And the updated projection transformation
+\end{bmatrix}\end{aligned}$$ 
+
+And the updated projection transformation
 is:
 
 $$\begin{aligned}
@@ -576,7 +574,7 @@ Extrinsic Assumptions
 Whereas intrinsic assumptions are those that are fixed to a particular
 camera, there are other camera related parameters which determine a
 final image but which we can vary outside of the camera, we call those
-parameters/assumptions Extrinsic.\
+parameters/assumptions Extrinsic.
 
 ### Real world Camera: Translating from origin
 
@@ -655,7 +653,9 @@ x \\
 y \\
 z \\
 1
-\end{bmatrix}\end{aligned}$$ Here $r_{ab}$ refers to the entry in the
+\end{bmatrix}\end{aligned}$$ 
+
+Here $r_{ab}$ refers to the entry in the
 $a$ row and $b$ column of the matrix $R_x R_y R_z$.\
 Note that we have 5 degrees of freedom from the camera intrinsic
 parameters (2 coordinates for the center of the camera, an angle of
@@ -695,12 +695,14 @@ y \\
 \end{bmatrix} \to \begin{bmatrix}
 x \\ 
 y
-\end{bmatrix}\end{aligned}$$ Note that size does not change with
+\end{bmatrix}\end{aligned}$$ 
+
+Note that size does not change with
 distance from the camera since there is no scale factor as illustrated
 below.
 
 ![image]({{ site.baseurl }}/assets/images/Orthogonal_Perspective.JPG)\
-*(Image taken from CS131 Lecture 17 slides)*
+->*(Image taken from CS131 Lecture 17 slides)*<-
 
 Scaled Orthographic Projection
 ------------------------------
@@ -735,7 +737,9 @@ s
 \end{bmatrix} \to \begin{bmatrix}
 \frac{x}{s} \\ 
 \frac{y}{s} \\ 
-\end{bmatrix} \end{aligned}$$ The use of the constant $s$ rather than
+\end{bmatrix} \end{aligned}$$ 
+
+The use of the constant $s$ rather than
 the $1$ in $\S \, 4.7$ is put into effect through the reversal of
 homogeneous coordinates to create a scaling factor of $\frac{1}{s}$ for
 each of the coordinates.
@@ -747,7 +751,7 @@ Zooming into an area will enlarge corresponding objects, but it will
 narrow the field of view as illustrated in the graphic below.
 
 ![image]({{ site.baseurl }}/assets/images/Field_of_Zoom.JPG)\
-*(Image taken from CS131 Lecture 17 slides)*
+->*(Image taken from CS131 Lecture 17 slides)*<-
 
 References
 ==========
