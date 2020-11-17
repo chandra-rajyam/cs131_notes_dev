@@ -451,9 +451,8 @@ needs to be inserted. A few examples with pictures of people inserted at
 the proper scale ratio are shown below. The individuals inserted are a
 larger size relative to those farther in the background prior to
 insertion.
-<p align="center">
-    <img src="{{site.baseurl}}/assets/images/image_scale.png" width="600" heigh="300">
-</p>
+
+<img src="{{site.baseurl}}/assets/images/image_scale.png" width="600" height="300" class=center>
 
 _(image taken from CS131 Lecture 17)_ Note the difference in scale between the inserted individuals and those in the background prior to image composition.
 
