@@ -451,7 +451,7 @@ needs to be inserted. A few examples with pictures of people inserted at
 the proper scale ratio are shown below. The individuals inserted are a
 larger size relative to those farther in the background prior to
 insertion.
-<img src="{{site.baseurl}}/assets/images/image_scale.png">
+<img src="{{site.baseurl}}/assets/images/image_scale.png" width="200" heigh="100">
 ![image]({{ site.baseurl }}/assets/images/image_scale.png)
 
 _(image taken from CS131 Lecture 17)_ Note the difference in scale between the inserted individuals and those in the background prior to image composition.
