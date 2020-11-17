@@ -404,14 +404,16 @@ allows you to properly scale the inserted image depending on where it
 needs to be inserted. A few examples with pictures of people inserted at
 the proper scale ratio are shown below. The individuals inserted are a
 larger size relative to those farther in the background prior to
-insertion.\
+insertion.
 
-![image]({{ site.baseurl }}/assets/images/image_scale.png)\
-<div align="center">_image taken from CS131 Lecture 17_</div>
+![image]({{ site.baseurl }}/assets/images/image_scale.png)
 
-![image]({{ site.baseurl }}/assets/images/depth_probing1.png) ![image]({{ site.baseurl }}/assets/images/depth_probing3.png)\
-<div align="center">_image taken from screenshots at
-http://grail.cs.washington.edu/projects/shadow/ _</div>
+_(image taken from CS131 Lecture 17)_
+
+![image]({{ site.baseurl }}/assets/images/depth_probing1.png) ![image]({{ site.baseurl }}/assets/images/depth_probing3.png)
+
+_(image taken from screenshots at
+http://grail.cs.washington.edu/projects/shadow/)_
 
 Intrinsic Assumptions
 ---------------------
