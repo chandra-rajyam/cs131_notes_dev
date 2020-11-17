@@ -326,11 +326,15 @@ pinhole camera without any lenses. As shown in the image above, a point
 $P$ from the real world is projected into a 2D point $P’$ on the image
 plane through the pinhole $C$. The focal length of this pinhole camera
 is $f$, and as shown in the image, we will be able to observe a
-symmetric virtual image on the other side of this system.\
+symmetric virtual image on the other side of this system.
+
 As has been discussed earlier, using similar triangles, we could map the
 x, y, z coordinates of the point $P$ onto $P’$ using the following
-equation $$\begin{aligned}
-P = (x, y, z) \rightarrow P' = (f \dfrac{x}{z}, f \dfrac{y}{z})\end{aligned}$$
+equation 
+
+$$\begin{aligned}
+P = (x, y, z) \rightarrow P' = (f \dfrac{x}{z}, f \dfrac{y}{z})
+\end{aligned}$$
 
 to achieve the transformation from a 3D space to a 2D plane. To be
 noted, this transformation is non-linear due to the division of the
@@ -353,28 +357,49 @@ problem by using the **homogeneous coordinate** system. For a 2D point
 (x, y), we could design a homogeneous image coordinate by adding an
 additional dimension. We could apply the same trick to obtain the
 homogeneous scene coordinates for the 3D point $P$ (x, y, z):
+
 $$\begin{aligned}
     (x, y) \rightarrow \begin{bmatrix} x \\ y \\ 1 \end{bmatrix} 
 \hspace*{8mm}
 (x, y, z) \rightarrow  \begin{bmatrix} x \\ y \\ z \\ 1 \end{bmatrix}\end{aligned}$$
+
 In order to convert back from homogeneous coordinates to standard
 coordinates, we simply divide them with the third dimension. Note that
 the equality between a vector and its homogeneous coordinates only
-exists when the final coordinate equals 1: $$\begin{aligned}
-    \begin{bmatrix} x \\ y \\ w \end{bmatrix}  \rightarrow (\dfrac{x}{w}, \dfrac{y}{w})
+exists when the final coordinate equals 1: 
+
+$$\begin{aligned}
+    \begin{bmatrix} 
+            x \\ y \\ w 
+    \end{bmatrix}  
+\rightarrow (\dfrac{x}{w}, \dfrac{y}{w})
 \hspace*{8mm}
-\begin{bmatrix} x \\ y \\ z \\ w \end{bmatrix}  \rightarrow (\dfrac{x}{w}, \dfrac{y}{w}, \dfrac{z}{w})\end{aligned}$$
+\begin{bmatrix} 
+    x \\ y \\ z \\ w 
+\end{bmatrix}  
+\rightarrow 
+    (\dfrac{x}{w}, \dfrac{y}{w}, \dfrac{z}{w})
+\end{aligned}$$
+
 Using homogeneous coordinates, we can re-formulate the previous
-projection equation in Cartesian coordinates: $$\begin{aligned}
-    P = (x, y, z) \rightarrow P' = (f \dfrac{x}{z}, f \dfrac{y}{z})\end{aligned}$$
-into homogeneous coordinates: $$\begin{aligned}
+projection equation in Cartesian coordinates: 
+
+$$\begin{aligned}
+P = (x, y, z) \rightarrow P' = (f \dfrac{x}{z}, f \dfrac{y}{z})
+\end{aligned}$$
+    
+into homogeneous coordinates: 
+
+$$\begin{aligned}
     P' = \begin{bmatrix} f x \\ f y \\ z \end{bmatrix} 
 = \begin{bmatrix}
 f & 0 & 0 & 0\\
 0 & f & 0 & 0\\
 0 & 0 & 1 & 0
 \end{bmatrix} 
-\begin{bmatrix} x \\ y \\ z \\ 1 \end{bmatrix} \end{aligned}$$ These
+\begin{bmatrix} x \\ y \\ z \\ 1 \end{bmatrix} \end{aligned}$$ 
+
+These
 equations are exactly the same, but now the whole process is linear
 because we can write down the coordinates by multiplying the vector with
 a 3x4 matrix $M$. We term this matrix as the **projection matrix**,
@@ -388,6 +413,7 @@ f & 0 & 0 & 0\\
 0 & f & 0 & 0\\
 0 & 0 & 1 & 0
 \end{bmatrix} , P = \begin{bmatrix} x \\ y \\ z \\ 1 \end{bmatrix} \end{aligned}$$
+
 where we now map a 4D space into a 3D space.
 
 Applications
@@ -408,12 +434,12 @@ insertion.
 
 ![image]({{ site.baseurl }}/assets/images/image_scale.png)
 
-_(image taken from CS131 Lecture 17)_
+_(image taken from CS131 Lecture 17)_ Note the difference in scale between the inserted individuals and those in the background prior to image composition.
 
 ![image]({{ site.baseurl }}/assets/images/depth_probing1.png) ![image]({{ site.baseurl }}/assets/images/depth_probing3.png)
 
-_(image taken from screenshots at
-http://grail.cs.washington.edu/projects/shadow/)_
+_(images taken from screenshots at
+http://grail.cs.washington.edu/projects/shadow/)_ The above image composition of a person inserted into background shows the scaling difference from a closer insertion to a farther insertion. The knowledge of depth at each location in the image is critical for this application. For this paper, researchers started with a video of the scene and used data from existing moving pedestrians in the video to gain knowledge of different depth at each location of the background.
 
 Intrinsic Assumptions
 ---------------------
