@@ -317,7 +317,7 @@ Projection Geometry
 -------------------
 
 <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/Pinhole camera_real world.JPG" width="600" height="270" class=center>
+    <img src="{{ site.baseurl }}/assets/images/Pinhole camera_real world.JPG" width="630" height="270" class=center>
     <br>
     <i>
         (Image taken from CS131 Lecture 17 slides)
