@@ -752,8 +752,10 @@ distance from the camera since there is no scale factor as illustrated
 below.
 
 <p align="center">
-    <img src="{{ site.baseurl }}/assets/images/Orthogonal_Perspective.JPG" width="400" height="170" class=center>
-    *(Image taken from CS131 Lecture 17 slides)*
+    <img src="{{ site.baseurl }}/assets/images/Orthogonal_Perspective.JPG" width="400" height="150" class=center>
+    <i>
+    (Image taken from CS131 Lecture 17 slides)
+    </i>
 </p>
 
 Scaled Orthographic Projection
