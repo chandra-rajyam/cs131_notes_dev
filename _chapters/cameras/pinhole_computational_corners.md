@@ -407,11 +407,11 @@ larger size relative to those farther in the background prior to
 insertion.\
 
 ![image]({{ site.baseurl }}/assets/images/image_scale.png)\
-<div align="center">*(image taken from CS131 Lecture 17)*</div>
+<div align="center">_image taken from CS131 Lecture 17_</div>
 
 ![image]({{ site.baseurl }}/assets/images/depth_probing1.png) ![image]({{ site.baseurl }}/assets/images/depth_probing3.png)\
-<div align="center">*(image taken from screenshots at
-http://grail.cs.washington.edu/projects/shadow/)*</div>
+<div align="center">_image taken from screenshots at
+http://grail.cs.washington.edu/projects/shadow/ _</div>
 
 Intrinsic Assumptions
 ---------------------
