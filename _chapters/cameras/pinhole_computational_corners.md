@@ -359,9 +359,23 @@ additional dimension. We could apply the same trick to obtain the
 homogeneous scene coordinates for the 3D point $P$ (x, y, z):
 
 $$\begin{aligned}
-    (x, y) \rightarrow \begin{bmatrix} x \\ y \\ 1 \end{bmatrix} 
-\hspace*{8mm}
-(x, y, z) \rightarrow  \begin{bmatrix} x \\ y \\ z \\ 1 \end{bmatrix}\end{aligned}$$
+    (x, y) 
+    \rightarrow 
+    \begin{bmatrix} 
+        x\\
+        y\\
+        1
+    \end{bmatrix} 
+    \hspace*{8mm}
+    (x, y, z) 
+    \rightarrow
+    \begin{bmatrix} 
+        x\\
+        y\\
+        z\\
+        1 
+    \end{bmatrix}
+\end{aligned}$$
 
 In order to convert back from homogeneous coordinates to standard
 coordinates, we simply divide them with the third dimension. Note that
@@ -370,13 +384,19 @@ exists when the final coordinate equals 1:
 
 $$\begin{aligned}
     \begin{bmatrix} 
-            x \\ y \\ w 
+            x\\
+            y\\
+            w 
     \end{bmatrix}  
-\rightarrow (\dfrac{x}{w}, \dfrac{y}{w})
-\hspace*{8mm}
-\begin{bmatrix} 
-    x \\ y \\ z \\ w 
-\end{bmatrix}  
+    \rightarrow 
+    (\dfrac{x}{w}, \dfrac{y}{w})
+    \hspace*{8mm}
+    \begin{bmatrix} 
+        x\\
+        y\\
+        z\\
+        w 
+    \end{bmatrix}  
 \rightarrow 
     (\dfrac{x}{w}, \dfrac{y}{w}, \dfrac{z}{w})
 \end{aligned}$$
