@@ -316,10 +316,14 @@ parameters and the extrinsic parameters will be discussed individually.
 Projection Geometry
 -------------------
 
-![image]({{ site.baseurl }}/assets/images/Pinhole camera_real world.JPG)
-
-*(Image taken from CS131 Lecture 17 slides)* Relating a real-world point
-to a point on a camera.
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/Pinhole camera_real world.JPG" width="600" height="270" class=center>
+    <br>
+    <i>
+        (Image taken from CS131 Lecture 17 slides)
+    </i>
+    Relating a real-world point to a point on a camera.
+</p>
 
 For this section, we will consider a scenario where we have an ideal
 pinhole camera without any lenses. As shown in the image above, a point
