@@ -453,7 +453,7 @@ larger size relative to those farther in the background prior to
 insertion.
 
 <p align="center">
-    <img src="{{site.baseurl}}/assets/images/image_scale.png" width="600" height="300" class=center>
+    <img src="{{site.baseurl}}/assets/images/image_scale.png" width="600" height="270" class=center>
 </p>
 
 _(image taken from CS131 Lecture 17)_ Note the difference in scale between the inserted individuals and those in the background prior to image composition.
@@ -751,8 +751,10 @@ Note that size does not change with
 distance from the camera since there is no scale factor as illustrated
 below.
 
-![image]({{ site.baseurl }}/assets/images/Orthogonal_Perspective.JPG)\
-<div align="center">*(Image taken from CS131 Lecture 17 slides)*</div>
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/Orthogonal_Perspective.JPG" width="400" height="170" class=center>
+    *(Image taken from CS131 Lecture 17 slides)*
+</p>
 
 Scaled Orthographic Projection
 ------------------------------
