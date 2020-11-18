@@ -208,6 +208,15 @@ where $r_1$ is the incoming ray, $r_1$' is the reflected ray, and
 $\alpha_1$ is the incident angle. The surface normal is not pictured,
 but is the unit vector $\begin{bmatrix}0\\1  \end{bmatrix}$.
 
+$$\begin{aligned}
+    \text{surface normal } 
+    \rightarrow 
+    \begin{bmatrix} 
+        0\\
+        1
+    \end{bmatrix} 
+\end{aligned}$$
+
 ### Refraction
 
 Refraction follows Snell's Law:
