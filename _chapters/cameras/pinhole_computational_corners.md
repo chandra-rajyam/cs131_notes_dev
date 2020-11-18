@@ -128,6 +128,14 @@ Effects of a Lens
 
 The role of a lens is to focus light on the film.
 
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/Role_of_lens.png" width="600" height="270" class=center>
+    <br>
+    <i>
+        (Image taken from CS131 Lecture 17 slides)
+    </i>
+    
+</p>
 ![image]({{ site.baseurl }}/assets/images/Role_of_lens.png)
 
 ### Focal Point
