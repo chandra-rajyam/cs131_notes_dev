@@ -23,10 +23,16 @@ was allowed to be projected onto the film, each pixel on the film would
 capture the light emitted from all parts of the object, creating an
 unfocused and blurry image.
 
-![image]({{ site.baseurl }}/assets/images/pinhole_nobarrier.png) *(Image taken from CS 131 Lecture 17)*
-This figure displays how without any type of filtering applied to the
-light rays emitted from an object, the projected image on the film will
-be noisy and unclear.
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/pinhole_nobarrier.png" width="600" height="270" class=center>
+    <br>
+    <i>
+        (Image taken from CS131 Lecture 17 slides)
+    </i>
+    This figure displays how without any type of filtering applied to the
+    light rays emitted from an object, the projected image on the film will
+    be noisy and unclear.
+</p>
 
 A pinhole camera system works around this problem by adding a barrier
 between the object and the film with a small opening, or aperture, in
