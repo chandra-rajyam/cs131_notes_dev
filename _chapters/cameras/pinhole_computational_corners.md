@@ -258,7 +258,7 @@ refraction for air. $n_2 = n$ is the index of refraction for the lens.
 $\alpha_1$ is the incident angle. $\alpha_2$ is the reflection angle.
 Based on this information and our assumptions of thin lenses, the point
 $P$' can be calculated. Then, we can calculate the
-$(x$'$,y$'$)$ coordinates of where the rays
+$(x',y')$ coordinates of where the rays
 converge.\
 $$z' = f + z_0$$ where $x$ is the $x$-component of the coordinates of
 $P$, $y$ is the $y$-component of the coordinates of $P$, and $z$ is the
