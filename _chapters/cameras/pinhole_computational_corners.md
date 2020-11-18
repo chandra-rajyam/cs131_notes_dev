@@ -61,9 +61,15 @@ onto a wall of a darkened room instead of a film is called camera
 obscura. Camera obscura was practiced in classical China and Greece and
 commonly used for tracing images onto paper.
 
-![image]({{ site.baseurl }}/assets/images/camera_obscura.png) *(Photo taken by group member)* This figure
-displays the inverted projected image of the makeshift camera obscura
-created in the garage of a group member.
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/camera_obscura.png" width="600" height="270" class=center>
+    <br>
+    <i>
+        (Photo taken by group member)
+    </i>
+    This figure displays the inverted projected image of the makeshift camera
+    obscura created in the garage of a group member.
+</p>
 
 Dimensionality Reduction
 ------------------------
