@@ -737,7 +737,7 @@ z \\
 Counter clockwise rotation of the camera around each of the three
 coordinate axes $(x, y, x)$ can be characterized by three corresponding
 angles of rotation around the corresponding axis:
-$(\alpha, \beta \gamma)$. Rotation of a point around an axis can be
+$(\alpha, \beta, \gamma)$. Rotation of a point around an axis can be
 described with a matrix transformation. So for each of the three
 rotations we can define a separate rotation transformation:
 
