@@ -45,10 +45,16 @@ the bottom part of the object can only pass through the aperture if they
 are angled upwards, the image projected onto the film will be
 upside-down.
 
-![image]({{ site.baseurl }}/assets/images/pinholecamera2.png) *(Photo taken from Stanford CS231A Course
-Notes 1: Camera Models)* This figure displays how in a pinhole camera
-system, light rays emitted from an object filter through an aperture in
-a barrier to create an inverted image of the object on a film.
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/pinholecamera2.png" width="600" height="270" class=center>
+    <br>
+    <i>
+        (Photo taken from Stanford CS231A Course Notes 1: Camera Models)
+    </i>
+    This figure displays how in a pinhole camera
+    system, light rays emitted from an object filter through an aperture in
+    a barrier to create an inverted image of the object on a film.
+</p>
 
 The system of projecting an inverted image created by a pinhole camera
 onto a wall of a darkened room instead of a film is called camera
