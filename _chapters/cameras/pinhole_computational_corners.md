@@ -264,15 +264,17 @@ $$z' = f + z_0$$ where $x$ is the $x$-component of the coordinates of
 $P$, $y$ is the $y$-component of the coordinates of $P$, and $z$ is the
 $x$-component of the distance from $P$ to $O$.\
 Thus we can solve for the coordinates of $P$': 
+
 $$\begin{aligned}
 x'= z'\frac{x}{z}
 \end{aligned}$$ 
 
 The formula is the same for the $y$-component of $P$', just substitute the
 $y$ coordinate of $P$ for the $x$ coordinate: 
+
 $$\begin{aligned}
 y'= z'\frac{y}{z}
-\enbd{aligned}$$
+\end{aligned}$$
 
 Issues with Lenses
 ------------------
