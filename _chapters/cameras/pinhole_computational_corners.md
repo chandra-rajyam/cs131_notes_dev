@@ -203,7 +203,7 @@ Refraction: When a ray passes from one medium to another.
     </i>
 </p>
 
-where $r_1$ is the incoming ray, $r_1$' is the reflected ray, and
+where $r_1$ is the incoming ray, $r_1'$ is the reflected ray, and
 $\alpha_1$ is the incident angle. The surface normal is not pictured,
 but is the unit vector $(0,1)$.
 
@@ -242,8 +242,8 @@ assumption simplifies ray tracing calculations.
 With thin lenses, we can ignore the effect of the thickness has on how
 the ray travels. We can simply just focus of the light travel itself.
 $P$ is the origin of the light rays. $O$ is the center of the lens. $f$
-is the focal length. $P$' is the point at which they rays converge at
-the distance $z$'. $z$' $= f + z_0$. $R$ is the radius of the lens. $n$
+is the focal length. $P'$ is the point at which they rays converge at
+the distance $z'$. $z'= f + z_0$. $R$ is the radius of the lens. $n$
 is the index of refraction for the lens. Based off of the assumptions of
 thin lenses, we can actually derive the focal distance $f$ of the lens.
 
@@ -256,19 +256,19 @@ $n_1\sin{\alpha_1} = n_2\sin{\alpha_2}$: $n_1 = 1$ is the index of
 refraction for air. $n_2 = n$ is the index of refraction for the lens.
 $\alpha_1$ is the incident angle. $\alpha_2$ is the reflection angle.
 Based on this information and our assumptions of thin lenses, the point
-$P$' can be calculated. Then, we can calculate the
+$P'$ can be calculated. Then, we can calculate the
 $(x',y')$ coordinates of where the rays
 converge.\
 $$z' = f + z_0$$ where $x$ is the $x$-component of the coordinates of
 $P$, $y$ is the $y$-component of the coordinates of $P$, and $z$ is the
 $x$-component of the distance from $P$ to $O$.\
-Thus we can solve for the coordinates of $P$': 
+Thus we can solve for the coordinates of $P'$: 
 
 $$\begin{aligned}
 x'= z'\frac{x}{z}
 \end{aligned}$$ 
 
-The formula is the same for the $y$-component of $P$', just substitute the
+The formula is the same for the $y$-component of $P'$, just substitute the
 $y$ coordinate of $P$ for the $x$ coordinate: 
 
 $$\begin{aligned}
