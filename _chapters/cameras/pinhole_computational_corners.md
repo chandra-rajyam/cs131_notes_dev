@@ -134,15 +134,20 @@ The role of a lens is to focus light on the film.
     <i>
         (Image taken from CS131 Lecture 17 slides)
     </i>
-    
 </p>
-![image]({{ site.baseurl }}/assets/images/Role_of_lens.png)
+
 
 ### Focal Point
 
 Every lens has a focal point and a focal length, $f$.
 
-![image]({{ site.baseurl }}/assets/images/Focal_point.png)
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/Focal_point.png" width="600" height="270" class=center>
+    <br>
+    <i>
+        (Image taken from CS131 Lecture 17 slides)
+    </i>
+</p>
 
 Rays that pass through the center of the lens are not deviated. All
 parallel rays of light converge at a single point (the focal point) on a
@@ -153,15 +158,28 @@ plane located at focal length, $f$.
 There is a specific distance at which objects are "in focus" (at this
 distance, rays of light converge at a single point).
 
-![image]({{ site.baseurl }}/assets/images/Circle_of_confusion.png)
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/Circle_of_confusion.png" width="600" height="270" class=center>
+    <br>
+    <i>
+        (Image taken from CS131 Lecture 17 slides)
+    </i>
+</p>
 
 Objects that are at a depth different to this specific depth do not
 converge at a single point (are "out of focus") and create a 'circle of
 confusion.'
 
-![image]({{ site.baseurl }}/assets/images/Circles_of_confusion_3d.jpg)
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/Circles_of_confusion_3d.jpg" width="600" height="270" class=center>
+    <br>
+    <i>
+        (Photo taken from theimage.com)
+    </i>
+</p>
+pg)
 
-*(Photo taken from theimage.com)* As you can see here, objects that are
+As you can see here, objects that are
 further from the true focus point converge beyond the plane of focus,
 while objects closer than the true focus point converge before the plane
 of focus.
@@ -178,7 +196,13 @@ Refraction: When a ray passes from one medium to another.
 
 ### Reflection
 
-![image]({{ site.baseurl }}/assets/images/Reflection_and_refraction.png)
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/Reflection_and_refraction.png" width="600" height="270" class=center>
+    <br>
+    <i>
+        (Image taken from CS131 Lecture 17 slides)
+    </i>
+</p>
 
 where $r_1$ is the incoming ray, $r_1$' is the reflected ray, and
 $\alpha_1$ is the incident angle. The surface normal is not pictured,
@@ -199,8 +223,13 @@ refraction angle.
 A very thin lens is a lens with a very small thickness, which is
 negligible in relation to the radius of the curve of the lens. This
 assumption simplifies ray tracing calculations.
-
-![image]({{ site.baseurl }}/assets/images/Thin_Lens.png)
+<p align="center">
+    <img src="{{ site.baseurl }}/assets/images/Thin_Lens.png" width="600" height="270" class=center>
+    <br>
+    <i>
+        (Image taken from CS131 Lecture 17 slides)
+    </i>
+</p>
 
 With thin lenses, we can ignore the effect of the thickness has on how
 the ray travels. We can simply just focus of the light travel itself.
