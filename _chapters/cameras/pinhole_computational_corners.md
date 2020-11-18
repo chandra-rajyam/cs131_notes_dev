@@ -177,7 +177,6 @@ confusion.'
         (Photo taken from theimage.com)
     </i>
 </p>
-pg)
 
 As you can see here, objects that are
 further from the true focus point converge beyond the plane of focus,
